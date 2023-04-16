@@ -1,8 +1,5 @@
 const Poem = require("../schema/schema");
-<<<<<<< HEAD
 const Login = require("../schema/loginschema");
-=======
->>>>>>> origin/main
 const express = require("express");
 const app = express();
 app.use(express.json());
@@ -60,7 +57,6 @@ const updatedisLikes = async (req, res) => {
   res.status(200).json({ poems: data3 });
 };
 
-<<<<<<< HEAD
 const signup = async (req, res) => {
   const data = await Login.insertMany({
     username: req.body.username,
@@ -80,8 +76,6 @@ const login =async(req,res)=>{
   
 }
 
-=======
->>>>>>> origin/main
 module.exports = {
   createNewPoem,
   getAllPoems,
@@ -89,9 +83,7 @@ module.exports = {
   getSinglePoem,
   updateLikes,
   updatedisLikes,
-<<<<<<< HEAD
   signup,
-  login
-=======
->>>>>>> origin/main
+  login,
+  }
 };
