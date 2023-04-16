@@ -85,5 +85,4 @@ module.exports = {
   updatedisLikes,
   signup,
   login,
-  }
 };
