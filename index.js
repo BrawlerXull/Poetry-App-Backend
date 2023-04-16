@@ -8,7 +8,6 @@ const {createNewPoem,getAllPoems,deleteOldPoem,getSinglePoem,updateLikes,updated
 app.get("/all",getAllPoems);
 app.post("/signup",signup);
 app.post("/login",login);
-const {createNewPoem,getAllPoems,deleteOldPoem,getSinglePoem,updateLikes,updatedisLikes} = require("./src/methods/methods");
 
 app.get("/all",getAllPoems);
 app.post("/create",createNewPoem);
