@@ -11,7 +11,11 @@
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^7.0.3",
+<<<<<<< HEAD
     "nodemon": "^2.0.22",
     "validator": "^13.9.0"
+=======
+    "nodemon": "^2.0.22"
+>>>>>>> origin/main
   }
 }
