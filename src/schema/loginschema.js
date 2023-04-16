@@ -14,5 +14,3 @@ const LoginSchema = mongoose.Schema({
 });
 
 module.exports = mongoose.model("Login",LoginSchema);
-
-//git remote add origin <REMOTE_URL>
